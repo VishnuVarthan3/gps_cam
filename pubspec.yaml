@@ -1,0 +1,41 @@
+name: gps_cam
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you intend to publish to pub.dev.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.9.4+5
+  path_provider: ^2.0.11
+  path: ^1.8.2
+  gallery_saver: ^2.3.2
+  image: ^3.0.1
+  permission_handler: ^10.2.0
+  geolocator: ^9.0.1
+  geocoding: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+# fonts:
+#   - family: Raleway
+#     fonts:
+#       - asset: fonts/Raleway-Regular.ttf
+#       - asset: fonts/Raleway-Italic.ttf
+#         style: italic
+  # - family: RobotoMono
+  #   fonts:
+  #     - asset: fonts/RobotoMono-Regular.ttf
+  #     - asset: fonts/RobotoMono-Bold.ttf
+  #       weight: 700
