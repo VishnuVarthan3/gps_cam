@@ -28,7 +28,7 @@ class _CameraAppState extends State<CameraApp> {
   Position? _currentPosition;
   String _currentAddress = '';
 
-  // veeramanikandan.r@schnellenergy.com
+  // 
 
   @override
   void initState() {
